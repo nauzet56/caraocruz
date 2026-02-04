@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Lanzamiento de Moneda</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">LANZAMIENTO DE MONEDA</h1>
+        
+        <div class="coin-display">
+            <div id="coinImage" class="coin-wrapper">
+                <div class="coin question">?</div>
+            </div>
+        </div>
+        
+        <div id="gameMessage" class="message">
+            Elige cara o cruz y presiona "Lanzar Moneda"
+        </div>
+        
+        <div class="controls">
+            <div class="choice-section">
+                <label class="radio-option">
+                    <input type="radio" name="choice" value="cara" checked>
+                    <span class="radio-label">CARA</span>
+                </label>
+                <label class="radio-option">
+                    <input type="radio" name="choice" value="cruz">
+                    <span class="radio-label">CRUZ</span>
+                </label>
+            </div>
+            
+            <button id="launchButton" class="launch-button">
+                LANZAR MONEDA
+            </button>
+        </div>
+        
+        <div class="decorative-elements">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
